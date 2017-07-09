@@ -1,6 +1,8 @@
 # rustbridge-www
 > the website for rustbridge
 
+[![Build Status](https://travis-ci.org/ashleygwilliams/rustbridge-www.svg?branch=master)](https://travis-ci.org/ashleygwilliams/rustbridge-www)
+
 ## prerequisites
 
 this is a static site. it is built using a [node.js] workflow. you'll need
