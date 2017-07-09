@@ -7,6 +7,7 @@ this is a static site. it is built using a [node.js] workflow. you'll need
 node.js and npm to build the site. to get these tools, follow 
 [these instructions].
 
+[node.js]: https://nodejs.org
 [these instructions]: https://www.npmjs.com/get-npm
 
 ## up and running
