@@ -19,6 +19,9 @@ up and running locally:
 3. `npm prune && install`
 4. `npm start`
 
-`npm start` will start a local dev server at `http://127.0.0.1:8080`.
+`npm start` will start a local dev server at [`http://127.0.0.1:8080`].
 this script uses [`live server`] to automatically refresh your browser
 window when changes are made to files in the project.
+
+[`http://127.0.0.1:8080`]: http://127.0.0.1:8080
+[`live server`]: https://github.com/tapio/live-server
