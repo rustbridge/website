@@ -17,7 +17,7 @@ up and running locally:
 
 1. fork and clone this repository
 2. `cd rustbridge-www`
-3. `npm prune && install`
+3. `npm prune && npm install`
 4. `npm start`
 
 `npm start` will start a local dev server at [`http://127.0.0.1:8080`].
