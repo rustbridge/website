@@ -59,6 +59,8 @@ nav.navbar {
 }
 
 footer {
+  padding: 20px 0 20px 0;
+  min-height: 50px;
   background-color: #23d2af;
   color: white;
 }
