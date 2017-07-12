@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build && live-server ./",
-    "build": "mustache ./data/data.json ./templates/index.mustache > ./index.html"
+    "build": "mustache -p ./templates/partials/nav.mustache -p ./templates/partials/header.mustache -p ./templates/partials/footer.mustache -p ./templates/partials/scripts.mustache ./data/data.json ./templates/index.mustache > ./index.html"
   },
   "repository": {
     "type": "git",
