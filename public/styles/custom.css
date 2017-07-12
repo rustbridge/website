@@ -36,6 +36,11 @@ body {
   font-weight: 300;
 }
 
+#about p {
+  line-height: 2em;
+  padding: 10px 25px 10px 0;
+}
+
 .background {
   background-image: url(../img/wocintech.jpg);
   background-size: cover;
