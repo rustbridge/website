@@ -5,7 +5,7 @@ const path = require('path')
 const md = require('markdown-it')()
 
 if (process.argv.length < 3) {
-  console.log('Usage:\n\nmarky-markdown some.md > some.html')
+  console.log('Usage: node ./build/markdown.js some.md > some.html')
   process.exit()
 }
 
