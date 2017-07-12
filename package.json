@@ -6,8 +6,8 @@
   "scripts": {
     "start": "npm run build && live-server ./",
     "build": "npm run build:markdown && npm run build:html",
-    "build:html": "mustache -p ./templates/partials/nav.mustache -p ./templates/partials/header.mustache -p ./templates/partials/about.mustache -p ./templates/partials/footer.mustache -p ./templates/partials/scripts.mustache ./data/data.json ./templates/index.mustache > ./index.html",
-    "build:markdown": "./build/markdown.js ./data/content/about.md > ./templates/partials/about.mustache"
+    "build:html": "mustache -p ./templates/partials/nav.mustache -p ./templates/partials/header.mustache -p ./templates/partials/about.mustache -p ./templates/partials/workshops.mustache -p ./templates/partials/footer.mustache -p ./templates/partials/scripts.mustache ./data/data.json ./templates/index.mustache > ./index.html",
+    "build:markdown": "./build/markdown.js ./data/content/about.md > ./templates/partials/about.mustache && ./build/markdown.js ./data/content/workshops.md > ./templates/partials/workshops.mustache"
   },
   "repository": {
     "type": "git",
