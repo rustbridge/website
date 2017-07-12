@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build && live-server ./",
-    "build": "mustache -p ./templates/partials/nav.mustache -p ./templates/partials/header.mustache -p ./templates/partials/footer.mustache -p ./templates/partials/scripts.mustache ./data/data.json ./templates/index.mustache > ./index.html"
+    "build": "npm run build:css && npm run build:html",
+    "build:css": "uglifycss ./public/styles/components/*.css > ./public/styles/custom.css",
+    "build:html": "mustache -p ./templates/partials/nav.mustache -p ./templates/partials/header.mustache -p ./templates/partials/footer.mustache -p ./templates/partials/scripts.mustache ./data/data.json ./templates/index.mustache > ./index.html"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   "homepage": "https://github.com/ashleygwilliams/rustbridge-www#readme",
   "devDependencies": {
     "live-server": "^1.2.0",
-    "mustache": "^2.3.0"
+    "mustache": "^2.3.0",
+    "uglifycss": "0.0.27"
   }
 }

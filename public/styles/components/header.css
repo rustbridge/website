@@ -1,0 +1,17 @@
+.background {
+  background-image: url(../img/wocintech.jpg);
+  background-size: cover;
+  min-height: 350px;
+}
+
+.page-header {
+  margin-top: 0;
+}
+
+.page-header h1 {
+  margin-top: 225px;
+  padding: 10px 16px 10px 16px;
+  background-color: #23d2af;
+  color: white;
+  display: inline-block;
+}
