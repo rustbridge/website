@@ -36,6 +36,8 @@ for more information about the specific workflows and builds in this project
 checkout out the [`documentation` directory]:
 
 - [templating]
+- [deploy]
 
 [`documentation` directory]: https://github.com/ashleygwilliams/rustbridge-www/tree/master/docs
 [templating]: https://github.com/ashleygwilliams/rustbridge-www/tree/master/docs/templating.md
+[deploy]: https://github.com/ashleygwilliams/rustbridge-www/blob/master/docs/deploy.md
