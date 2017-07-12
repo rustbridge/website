@@ -37,5 +37,5 @@ checkout out the [`documentation` directory]:
 
 - [templating]
 
-[`documentation` directory]: https://github.com/ashleygwilliams/rustbridge-www/tree/master/documentation
-[templating]: https://github.com/ashleygwilliams/rustbridge-www/tree/master/documentation/templating.md
+[`documentation` directory]: https://github.com/ashleygwilliams/rustbridge-www/tree/master/docs
+[templating]: https://github.com/ashleygwilliams/rustbridge-www/tree/master/docs/templating.md
