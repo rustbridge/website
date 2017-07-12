@@ -1,3 +1,69 @@
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('../fonts/Fira/eot/FiraSans-Light.eot');
+    src: url('../fonts/Fira/eot/FiraSans-Light.eot') format('embedded-opentype'),
+         url('../fonts/Fira/woff2/FiraSans-Light.woff2') format('woff2'),
+         url('../fonts/Fira/woff/FiraSans-Light.woff') format('woff'),
+         url('ttf/FiraSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('../fonts/Fira/eot/FiraSans-Regular.eot');
+    src: url('../fonts/Fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
+         url('../fonts/Fira/woff2/FiraSans-Regular.woff2') format('woff2'),
+         url('../fonts/Fira/woff/FiraSans-Regular.woff') format('woff'),
+         url('../fonts/Fira/ttf/FiraSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('../fonts/Fira/eot/FiraSans-Medium.eot');
+    src: url('../fonts/Fira/eot/FiraSans-Medium.eot') format('embedded-opentype'),
+         url('../fonts/Fira/woff2/FiraSans-Medium.woff2') format('woff2'),
+         url('../fonts/Fira/woff/FiraSans-Medium.woff') format('woff'),
+         url('../fonts/Fira/ttf/FiraSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'Fira Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.background {
+  background-image: url(../img/wocintech.jpg);
+  background-size: cover;
+  min-height: 350px;
+}
+
+nav.navbar {
+  margin-bottom: 0;
+}
+
+.page-header {
+  margin-top: 0;
+}
+
+.page-header h1 {
+  margin-top: 225px;
+  padding: 10px 16px 10px 16px;
+  background-color: #23d2af;
+  color: white;
+  display: inline-block;
+}
+
+footer {
+  background-color: #23d2af;
+  color: white;
+}
+
+footer a {
+  color: white; 
+  text-decoration: underline;
 }
