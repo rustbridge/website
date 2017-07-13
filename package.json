@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && live-server ./",
+    "start": "npm run build && live-server --ignore=$PWD/templates/partials/generated/*.mustache",
     "build": "npm run build:markdown && npm run build:html",
-    "build:html": "mustache -p ./templates/partials/nav.mustache -p ./templates/partials/header.mustache -p ./templates/partials/about.mustache -p ./templates/partials/workshops.mustache -p ./templates/partials/footer.mustache -p ./templates/partials/scripts.mustache ./data/data.json ./templates/index.mustache > ./index.html",
-    "build:markdown": "./build/markdown.js ./data/content/about.md > ./templates/partials/about.mustache && ./build/markdown.js ./data/content/workshops.md > ./templates/partials/workshops.mustache"
+    "build:html": "mustache -p ./templates/partials/nav.mustache -p ./templates/partials/header.mustache -p ./templates/partials/generated/about.mustache -p ./templates/partials/generated/workshops.mustache -p ./templates/partials/footer.mustache -p ./templates/partials/scripts.mustache ./data/data.json ./templates/index.mustache > ./index.html",
+    "build:markdown": "./build/markdown.js ./data/content/about.md > ./templates/partials/generated/about.mustache && ./build/markdown.js ./data/content/workshops.md > ./templates/partials/generated/workshops.mustache"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,9 @@
   },
   "homepage": "https://github.com/ashleygwilliams/rustbridge-www#readme",
   "devDependencies": {
-    "live-server": "^1.2.0",
+    "@ag_dubs/live-server": "^1.2.1",
     "markdown-it": "^8.3.1",
-    "mustache": "^2.3.0"
+    "mustache": "^2.3.0",
+    "shelljs": "^0.7.8"
   }
 }
