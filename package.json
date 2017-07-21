@@ -6,8 +6,10 @@
   "scripts": {
     "start": "npm run build && live-server --ignore=$PWD/templates/partials/generated/*.mustache",
     "build": "npm run build:markdown && npm run build:html",
-    "build:html": "mustache -p ./templates/partials/nav.mustache -p ./templates/partials/header.mustache -p ./templates/partials/generated/about.mustache -p ./templates/partials/generated/workshops.mustache -p ./templates/partials/footer.mustache -p ./templates/partials/scripts.mustache ./data/data.json ./templates/index.mustache > ./index.html",
-    "build:markdown": "./build/markdown.js ./data/content/about.md > ./templates/partials/generated/about.mustache && ./build/markdown.js ./data/content/workshops.md > ./templates/partials/generated/workshops.mustache"
+    "build:html": "npm run build:index && npm run build:learn",
+    "build:index": "mustache -p ./templates/partials/nav.mustache -p ./templates/partials/header.mustache -p ./templates/partials/generated/about.mustache -p ./templates/partials/generated/workshops.mustache -p ./templates/partials/footer.mustache -p ./templates/partials/scripts.mustache ./data/data.json ./templates/index.mustache > ./index.html",
+    "build:learn": "mustache -p ./templates/partials/nav.mustache -p ./templates/partials/learn-header.mustache -p ./templates/partials/generated/learn.mustache -p ./templates/partials/generated/resources.mustache -p ./templates/partials/footer.mustache -p ./templates/partials/scripts.mustache ./data/data.json ./templates/learn.mustache > ./learn.html",
+    "build:markdown": "./build/markdown.js ./data/content/about.md > ./templates/partials/generated/about.mustache && ./build/markdown.js ./data/content/workshops.md > ./templates/partials/generated/workshops.mustache && ./build/markdown.js ./data/content/resources.md > ./templates/partials/generated/resources.mustache && ./build/markdown.js ./data/content/learn.md > ./templates/partials/generated/learn.mustache"
   },
   "repository": {
     "type": "git",
