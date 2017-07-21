@@ -1,5 +1,5 @@
 # rustbridge-www
-[![Build Status](https://travis-ci.org/rust-community/rustbridge-www.svg?branch=master)](https://travis-ci.org/ashleygwilliams/rustbridge-www)
+[![Build Status](https://travis-ci.org/rust-community/rustbridge-www.svg?branch=master)](https://travis-ci.org/rust-community/rustbridge-www)
 [![Greenkeeper badge](https://badges.greenkeeper.io/rust-community/rustbridge-www.svg)](https://greenkeeper.io/)
 
 > the website for rustbridge
