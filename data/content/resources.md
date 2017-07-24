@@ -1,5 +1,6 @@
 #### Learn
 
+- [RustBridge Workshops](https://community.rs/rustbridge/)
 - [A Brief Intro to Rust](https://ashleygwilliams.github.io/a-very-brief-intro-to-rust/#1)
 - The [Book](https://doc.rust-lang.org/book/)
 - The [Rust API Reference](https://doc.rust-lang.org/std/)
@@ -17,3 +18,4 @@
 - [Clippy](https://github.com/manishearth/rust-clippy)
 - [rustfmt](https://github.com/rust-lang-nursery/rustfmt)
 - [Crates.io](https://crates.io/)
+- [IDE Support](https://areweideyet.com/)
