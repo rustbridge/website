@@ -1,4 +1,4 @@
-# rustbridge-www
+# rustbridge.github.io
 [![Build Status](https://travis-ci.org/rustbridge/rustbridge.github.io.svg?branch=master)](https://travis-ci.org/rustbridge/rustbridge.github.io)
 [![Greenkeeper badge](https://badges.greenkeeper.io/rustbridge/rustbridge.github.io.svg)](https://greenkeeper.io/)
 
@@ -19,7 +19,7 @@ once you have node.js and npm installed, follow these steps to get the site
 up and running locally:
 
 1. fork and clone this repository
-2. `cd rustbridge-www`
+2. `cd rustbridge.github.io`
 3. `npm prune && npm install`
 4. `npm start`
 
