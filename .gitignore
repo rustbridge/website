@@ -1,4 +1,4 @@
 node_modules
-*.html
+_site
 templates/partials/generated/*.mustache
 package-lock.json
