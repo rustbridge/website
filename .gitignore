@@ -1,4 +1,0 @@
-node_modules
-_site
-templates/partials/generated/*.mustache
-package-lock.json
