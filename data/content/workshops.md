@@ -11,7 +11,7 @@
 #### [RustBeltRust]
 
 - Where: [The Columbus Athenaeum], Columbus, OH, USA
-- When: Sunday, October 26, 2017
+- When: Thursday, October 26, 2017
 - [Registration]
 
 [RustBeltRust]: https://www.rust-belt-rust.com/ 
