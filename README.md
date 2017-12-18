@@ -1,5 +1,5 @@
 # rustbridge.github.io
-[![Build Status](https://travis-ci.org/rustbridge/rustbridge.github.io.svg?branch=master)](https://travis-ci.org/rustbridge/rustbridge.github.io)
+[![Build Status](https://travis-ci.org/rustbridge/rustbridge.github.io.svg?branch=dev)](https://travis-ci.org/rustbridge/rustbridge.github.io)
 [![Greenkeeper badge](https://badges.greenkeeper.io/rustbridge/rustbridge.github.io.svg)](https://greenkeeper.io/)
 
 > the website for rustbridge
@@ -7,7 +7,7 @@
 ## prerequisites
 
 this is a static site. it is built using a [node.js] workflow. you'll need
-node.js and npm to build the site. to get these tools, follow 
+node.js and npm to build the site. to get these tools, follow
 [these instructions].
 
 [node.js]: https://nodejs.org
