@@ -23,6 +23,6 @@ more or less independently during this part- either heading off on your own,
 or pairing with a partner (or three!). The project is designed to be extendable,
 so no matter your pace, there's always something more to do!
 
-[presentation]: https://github.com/ashleygwilliams/a-very-brief-intro-to-rust
+[presentation]: https://rustbridge.github.io/a-very-brief-intro-to-rust/intro.html
 [exercism.io]: http://www.exercism.io/languages/rust/about
 [website]: https://rust-together.herokuapp.com/

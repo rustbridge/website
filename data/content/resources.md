@@ -1,7 +1,7 @@
 #### Learn
 
 - [RustBridge Workshops](https://community.rs/rustbridge/)
-- [A Brief Intro to Rust](https://ashleygwilliams.github.io/a-very-brief-intro-to-rust/#1)
+- [A Brief Intro to Rust](https://rustbridge.github.io/a-very-brief-intro-to-rust/intro.html#1)
 - The [Book](https://doc.rust-lang.org/book/)
 - The [Rust API Reference](https://doc.rust-lang.org/std/)
 - [Rust by Example](http://rustbyexample.com/)
