@@ -4,10 +4,9 @@
 - [A Brief Intro to Rust](https://rustbridge.github.io/a-very-brief-intro-to-rust/intro.html#1)
 - The [Book](https://doc.rust-lang.org/book/)
 - The [Rust API Reference](https://doc.rust-lang.org/std/)
-- [Rust by Example](http://rustbyexample.com/)
+- [Rust by Example](https://rustbyexample.com/)
 - The Rust [FAQ](https://www.rust-lang.org/en-US/faq.html)
 - [Rustlings](https://github.com/carols10cents/rustlings)
-- [Rust by Example](https://rustbyexample.com/)
 - [into_rust()](http://intorust.com/)
 - [exercism.io - Rust](http://exercism.io/languages/rust/about)
 
