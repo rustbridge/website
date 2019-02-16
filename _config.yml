@@ -1,0 +1,5 @@
+title: "RustBridge"
+markdown: "kramdown"
+kramdown:
+  parse_block_html: true
+permalink: pretty
