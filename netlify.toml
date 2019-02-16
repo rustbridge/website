@@ -1,3 +1,3 @@
 [build]
 publish = "_site/"
-command = "gem install bundler@2;bundle;bundle exec jekyll build"
+command = "gem install bundler --version '>= 2';bundle;bundle exec jekyll build"
