@@ -1,4 +1,7 @@
 title: "RustBridge"
+description: "An inclusive workshop program for newcomers to Rust"
+plugins:
+  - jekyll-octicons
 markdown: "kramdown"
 kramdown:
   parse_block_html: true

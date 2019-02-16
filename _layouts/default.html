@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1" />
+   <title>{{ page.title }}</title>
+   <meta name="author" content="The RustBridge team" />
+   <meta name="description" content="{{ site.description }}">
+   <meta property="og:type" content="website"/>
+   <meta property="og:image" content=""/>
+   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+</head>
+<body class="bg-white">
+  <nav class="db dt-l w-100 border-box pa3 ph5-l pv4-l sans-serif">
+    <a class="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l b" href="{% link index.html %}" title="Home">
+      {{ site.title }}
+    </a>
+    <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+      <a class="link dim blue f6 f5-l dib mr3 mr4-l">{% octicon pencil style:"fill: #357EDD" %} Edit this page</a>
+      <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="{% link index.html %}" title="Home">Home</a>
+      <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="{% link about.html%}" title="About">About</a>
+      <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Blog">Blog</a>
+      <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Press">Press</a>
+      <a class="link dim dark-gray f6 f5-l dib" href="#" title="Contact">Contact</a>
+    </div>
+  </nav>
+  {{ content }} 
+</body>
