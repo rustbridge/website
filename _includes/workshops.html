@@ -1,0 +1,10 @@
+{% assign curDate = site.time %}
+{% assign next_workshops = site.data.workshops | where_exp: "item", "item.date > curDate" | sort: "date" %}
+{% for workshop in next_workshops %}
+<article class="br2 ba dark-gray b--black-10 mv4">
+  <div class="pa2 ph3-ns pv3-ns">
+    <h5 class="f5 f4-ns mv0">{{ workshop.name }}</h5>
+    <p class="black-60 f6">{% octicon location style:"fill: #000000;opacity:.6;" class:"v-mid" %} {{ workshop.location }}</p>
+  </div>
+</article>
+{% endfor %}
