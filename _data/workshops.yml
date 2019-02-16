@@ -4,5 +4,7 @@
   location: Gamer House, Berlin
   info_link: https://google.com
   signup_link: https://google2.com
+  description: |
+    Blah blah blah
 - name: Past Workshop
   date: 1999-01-01 10:00:00

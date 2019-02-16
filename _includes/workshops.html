@@ -4,7 +4,11 @@
 <article class="br2 ba dark-gray b--black-10 mv4">
   <div class="pa2 ph3-ns pv3-ns">
     <h5 class="f5 f4-ns mv0">{{ workshop.name }}</h5>
+    <p class="black-60 f6">{% octicon clock style:"fill: #000000;opacity:.6;" class:"v-mid" %} {{ workshop.human_date }}</p>
     <p class="black-60 f6">{% octicon location style:"fill: #000000;opacity:.6;" class:"v-mid" %} {{ workshop.location }}</p>
+    <p>{{ workshop.description }}</p>
+    <a href="{{ workshop.info_link }}" class="f5 link dim br1 ph3 pv2 dib white bg-navy w-100">More Information</a>
+    <a href="{{ workshop.signup_link }}" class="f5 link dim br1 ph3 pv2 dib white bg-dark-pink w-100 mt3">Sign up</a>
   </div>
 </article>
 {% endfor %}
