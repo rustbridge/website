@@ -1,10 +1,9 @@
-- name: Test Workshop
-  date: 2019-04-05 19:00:00
-  human_date: Early April
-  location: Gamer House, Berlin
-  info_link: https://google.com
-  signup_link: https://google2.com
+- name: RustBridge at RustCon Asia
+  date: 2019-04-20 19:00:00
+  human_date: April 20-23rd
+  location: Hyatt Regency Beijing Wangjing, Beijing, China
+  info_link: https://rustbridge.com
+  signup_link: https://airtable.com/shrcZlIgdJxBT1BBx
   description: |
-    Blah blah blah
-- name: Past Workshop
-  date: 1999-01-01 10:00:00
+    RustBridge makes its way to China for the first time! This workshop will be held in
+    <b>English</b>, with some translated material available.
