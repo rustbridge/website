@@ -1,13 +1,12 @@
 ---
-layout: page
+layout: default
 title: Learn with RustBridge
+nav_order: 2
 ---
 
-{% include pagestyles.html %}
+# Learn
 
-## Learn
-
-### Curriculum
+## Curriculum
 
 The goal of RustBridge is threefold:
 

@@ -1,8 +1,10 @@
 title: "RustBridge"
 description: "An inclusive workshop program for newcomers to Rust"
+theme: just-the-docs
 plugins:
   - jekyll-octicons
 markdown: "kramdown"
 kramdown:
   parse_block_html: true
 permalink: pretty
+search_enabled: true
