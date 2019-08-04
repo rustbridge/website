@@ -9,7 +9,7 @@ if status != 1:
     print("<http://www.imagemagick.org/index.php>")
     sys.exit()
 
-for filename in glob.glob('public/img/*.original.jpg'):
+for filename in glob.glob('assets/img/*.original.jpg'):
     directory = os.path.dirname(filename)
     # foo.original.jpg -> foo.jpg
     basename = os.path.splitext(os.path.splitext(filename)[0])[0]
