@@ -11,3 +11,4 @@ permalink: /chapters
   - Marisa (mokou@posteo.de)
   - Lisa (mail@lislis.de)
   - Tanks (tanks@ferrous-systems.com)
+- Interested in organizing your own local chapter? [Read more](/organizing/chapter)

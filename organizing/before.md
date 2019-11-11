@@ -30,11 +30,14 @@ you live in a bigger city, there's usually some companies who would be happy to
 sponsor the venue for your event.
 
 Phew, that's the two most important things done! Now's probably the point at
-which you should post your meetup in our GitHub issue tracker. If you want to,
+which you should post your meetup in our [GitHub issue
+tracker](https://github.com/rustbridge/organizing). If you want to,
 or if you're unsure about anything, you can contact us privately before. Once
-you're ready, post a new issue in the rustbridge/team GitHub repository. It
+you're ready, post a new issue in the rustbridge/organizing GitHub repository. It
 doesn't have to be an incredibly detailed issue, it just needs the time and the
-name of an organizer (maybe you?). A venue is also recommended, but if you don't
+name of an organizer (maybe you?). For this purpose, we provide a handy GitHub
+issue template that includes a bunch of checklists you can fill out as the event
+draws closer. A venue is also recommended, but if you don't
 have one at this stage, we have ways to help you with that.
 
 ## Getting people to sign up
@@ -44,12 +47,12 @@ might want to consider not making it a "everyone can come without registration"
 type of event. Not only does it make some people feel unwell, but we've had
 cases in the past where events got interrupted by third parties with bad intent.
 For that same reason, consider not making the venue location public, especially
-if it's a publicly accessable venue.
+if it's a publicly accessible venue.
 
-In the past, we've usually used a simple Google Forms form for signups to
-RustBridge events. This works fairly well, especially if your event is small to
-medium-scale. If you need or want more information/help regarding these
-processes, don't hesitate to contact us!
+We usually use [Bridge Troll](https://bridgetroll.org) to host our events.
+Bridge Troll also handles signups, checkins, volunteers and a bunch of other
+super helpful stuff. If you have a registered chapter on Bridge Troll, you can
+start planning events, if not, please talk to us about getting it on there!
 
 If you want to spread the word about your event, we can definitely help you with
 that. We have multiple channels over which we can announce your event, so feel
@@ -64,4 +67,4 @@ you might want to consider as your event draws closer:
   If not, no worries, you can always just tell the group to go and organize
   lunch on their own.
 - Drinks. Some venues have a fridge with drinks, if not, you might just want to
-  get some water and plastic cups from the local supermarket.
+  get some water and cups from the local supermarket.
