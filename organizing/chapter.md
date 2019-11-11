@@ -17,7 +17,7 @@ The main thing is that being a chapter formally makes you a part of the
 RustBridge project. This connects you closer with the RustBridge team, but
 also the Rust project as a whole. You will receive support where we can give it,
 and at the very least your workshops will gain more exposure. You will also get
-a public and private discussion channel on our [Discord](rbdiscord).
+a public and private discussion channel on our [Discord][rbdiscord].
 
 ## Starting a chapter
 
@@ -26,8 +26,8 @@ about this:
 
 - You can email `rustbridge@rust-lang.org`
 - You can talk to us on the `#rustbridge` channel on the [Rust
-  Discord](rustdiscord)
-- You can also talk to us on the [RustBridge Discord](rbdiscord)
+  Discord][rustdiscord]
+- You can also talk to us on the [RustBridge Discord][rbdiscord]
 - You can message Marisa directly, via [email](mailto:mokou@posteo.de), or on
   Discord (marisa#0229)
 
