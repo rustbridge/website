@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Learn with RustBridge
-nav_order: 2
+nav_order: 3
 ---
 
 # Learn
