@@ -5,6 +5,7 @@ nav_order: 1
 parent: Outreach
 ---
 
+```
 My name is [NAME], and I'm writing you on behalf of the RustBridge program. RustBridge is an inclusive and accessible event designed to teach newcomers to systems programming and programming in general about the programming language Rust. We, the [LOCAL ORGANIZING GROUP], are interested in reaching more learners, and would like to collaborate with your university to perhaps host an event for your students.
 
 The reason why we think the RustBridge would work in your university is because RustBridge, and other similar programs, like RubyBridge and NodeTogether, have proven to be especially effective around learners who come from a diverse and non-traditional background. We have organized RustBridge events at universities and university-related events before, like the University of Waterloo, the Canadian University Software Engineering Conference (CUSEC), or HackIllinois, and we think that it would be a great fit for your university as well.
@@ -18,3 +19,4 @@ We hope you will consider our proposal! If you need any more information, feel f
 Thank you so much for your time, we hope to hear from you soon.
 
 [NAMES OF ORGANIZERS]
+```
