@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: page
 title: Learn with RustBridge
 nav_order: 3
 ---
-
-# Learn
 
 ## Curriculum
 

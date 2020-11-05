@@ -2,7 +2,6 @@
 layout: default
 title: A Very Brief Intro To Rust
 nav_order: 1
-parent: Lesson Plans
 ---
 
 # A Very Brief Intro To Rust
@@ -32,7 +31,7 @@ This workshop module is a great way to kick off a RustBridge event.
   - Introduction to Rust, Cargo, and Project Setup (20min)
   - Syntax and Concepts that are similar to other languages (30min)
   - Rustlings Break! (1hr)
-      - https://github.com/rust-lang/rustlings 
+      - https://github.com/rust-lang/rustlings
       - Group Review (10min)
   - Syntax and Concepts that are Rust specific (40min)
   - What to learn next and how (10min)

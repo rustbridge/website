@@ -1,0 +1,7 @@
+<ul class="pl4 f4 lh-copy">
+  {% for chapter in site.data.chapters %}
+  <li>
+    <a href="{{chapter.url}}" target="_blank" class="">{{chapter.name}} 🔗</a>
+  </li>
+  {% endfor  %}
+</ul>

@@ -1,0 +1,29 @@
+<footer class="mt4 pt3 bg-near-white shadow-2">
+  <div class="mw8 pa2 ph3-ns center footer flex-ns justify-between">
+    <div>
+      <h3  class="f3 mb0">Contact</h3>
+      <ul class="pl4 f4 lh-copy">
+        {% for link in site.links.contact %}
+        <li><a href="{{ link[1] }}">{{ link[0] }} 🔗</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div>
+      <h3  class="f3 mb0">Resources</h3>
+      <ul class="pl4 f4 lh-copy">
+        {% for link in site.links.resources %}
+        <li><a href="{{ link[1] }}">{{ link[0] }} 🔗</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div>
+      <h3 class="f3 mb0">Chapters</h3>
+      {% include chapters-list.html %}
+    </div>
+  </div>
+  <div class="props">
+    <div class="mw9 ph2 center tc">
+      <p class="pv3 mb0">&lt;/&gt; with <3 by ミ[°°]ミ</p>
+    </div>
+  </div>
+</footer>
