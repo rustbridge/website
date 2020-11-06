@@ -1,9 +1,22 @@
 ---
-layout: default
+layout: baseof
 ---
 
-<h1 class="f1 lh-title mt0">{{ page.title}}</h1>
 
-<div class="f5 lh-copy">
-{{ content }}
+<div class="cf">
+  <div class="fl w-100 w-30-ns pr5-ns sidebar">
+    <h3 class="f2 vampiro mt2 mb0">In general</h3>
+    {% include nav.html %}
+    <section class="mt5">
+      <h3 class="f2 vampiro mb0">Chapters</h3>
+      {% include chapters-list.html %}
+    </section>
+  </div>
+  <div class="fl w-100 w-70-ns">
+    <h1 class="f1 lh-title mt0">{{ page.title}}</h1>
+
+    <div class="f5 lh-copy">
+      {{ content }}
+    </div>
+  </div>
 </div>

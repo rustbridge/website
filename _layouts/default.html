@@ -1,41 +1,22 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+---
+layout: baseof
+---
 
-    <title>{{ page.title }}</title>
-    <meta name="author" content="RustBridge" />
-    <meta name="description" content="RustBridge workshops focus on getting underrepresented people with a background in another programming language to learn Rust and join the community.">
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content=""/>
 
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
-    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+<div class="cf">
+  <div class="fl w-100 w-30-ns pr5-ns sidebar">
+    <h3 class="f2 vampiro mt2 mb0">In general</h3>
+    {% include nav.html %}
+    <section class="mt5">
+      <h3 class="f2 vampiro mb0">Chapters</h3>
+      {% include chapters-list.html %}
+    </section>
+  </div>
+  <div class="fl w-100 w-70-ns">
+    <h1 class="f1 lh-title mt0">{{ page.title}}</h1>
 
-    <link rel="shortcut icon" type="image/png" href="{{ site.url }}/assets/favicon.png">
-  </head>
-  <body>
-    {% include header.html %}
-
-    <main class="">
-      <div class="mw8 center pa2 ph3-ns">
-        <div class="cf">
-          <div class="fl w-100 w-30-ns pr5-ns sidebar">
-            <h3 class="f2 vampiro mt2 mb0">In general</h3>
-            {% include nav.html %}
-            <section class="mt5">
-              <h3 class="f2 vampiro mb0">Chapters</h3>
-              {% include chapters-list.html %}
-            </section>
-          </div>
-          <div class="fl w-100 w-70-ns">
-            {{ content }}
-          </div>
-        </div>
-      </div>
-    </main>
-
-    {% include footer.html %}
-  </body>
-</html>
+    <div class="f5 lh-copy">
+      {{ content }}
+    </div>
+  </div>
+</div>
