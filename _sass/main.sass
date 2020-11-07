@@ -1,0 +1,53 @@
+$orange: #d45c19
+$darkorange: #c10000
+
+@font-face
+  font-family: 'vampiro_oneregular'
+  src: url('/assets/font/vampiroone_regular_macroman/VampiroOne-Regular-webfont.woff') format('woff')
+  font-weight: normal
+  font-style: normal
+
+body
+  font-family: sans-serif
+  hyphens: auto
+
+
+.vampiro
+  font-family: 'vampiro_oneregular'
+
+.bm-darken
+  mix-blend-mode: darken
+
+
+.header
+  overflow: hidden
+
+.header__title
+  //font-size: 6vw
+  a
+    text-decoration: none
+
+a
+  color: currentColor
+  text-decoration: underline
+  text-decoration-color: $orange
+  text-decoration-thickness: 2px
+  transition: color 200ms ease, text-decoration-thickness 200ms ease
+  &:hover,
+  &:active
+    text-decoration: none
+    color: $orange
+
+.sidebar,
+.footer
+  a
+    text-decoration: none
+    font-weight: 400
+
+.props
+  background-color: $orange
+  color: white
+
+
+.logo
+  transform: translate(7rem, 0.6rem) scale(2)

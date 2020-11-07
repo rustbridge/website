@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Organizing a RustBridge
 nav_order: 4
 has_children: true

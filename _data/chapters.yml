@@ -1,0 +1,10 @@
+- name: RustBridge Berlin
+  location:
+    city: Berlin
+    country: Germany
+  url: https://berlin.rustbridge.com/
+  mail: berlin@rustbridge.com'
+  contact:
+    - Marisa (mokou@posteo.de)
+    - Lisa (mail@lislis.de)
+    - Tanks (tanks@ferrous-systems.com)

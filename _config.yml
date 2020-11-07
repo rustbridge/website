@@ -1,6 +1,6 @@
 title: "RustBridge"
 description: "An inclusive workshop program for newcomers to Rust"
-theme: just-the-docs
+#theme: just-the-docs
 plugins:
   - jekyll-octicons
 markdown: "kramdown"
@@ -11,3 +11,18 @@ search_enabled: true
 aux_links:
   "Edit this on GitHub":
     - "https://github.com/rustbridge/website"
+sass:
+  style: :compressed
+
+links:
+  contact:
+    Twitter: "https://twitter.com/rustbridge"
+    Discord: "https://discord.gg/DpBApCd"
+    GitHub: "https://github.com/rustbridge/"
+  resources:
+    "Rust": "https://www.rust-lang.org/"
+    Rustlings: "https://github.com/rust-lang/rustlings"
+    "Rusty Snake Book": "https://snake.rustbridge.com/"
+
+collections:
+  - lesson_plans

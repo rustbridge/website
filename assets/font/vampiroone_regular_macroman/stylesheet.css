@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'vampiro_oneregular';
+    src: url('VampiroOne-Regular-webfont.eot');
+    src: url('VampiroOne-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('VampiroOne-Regular-webfont.woff2') format('woff2'),
+         url('VampiroOne-Regular-webfont.woff') format('woff'),
+         url('VampiroOne-Regular-webfont.ttf') format('truetype'),
+         url('VampiroOne-Regular-webfont.svg#vampiro_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

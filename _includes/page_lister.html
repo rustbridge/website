@@ -1,0 +1,21 @@
+{% assign dir = include.dir | default: page.dir %}
+<div class="page-list">
+  {% assign mypages = site.pages | where:"dir", dir | where_exp:"item", "item.name != page.name" %}
+  {% if mypages.length > 0 %}
+  <ul>
+    {% for item in mypages | sort: "title" %}
+    {% assign mytitle = item.title | default: item.url %}
+    <li>
+      <a href="{{ item.url }}">{{ mytitle | replace:'_',' ' | replace:'-',' ' }}</a>
+      <p>{% if item.description %}
+        {{ item.description }}
+        {% else %}
+        {{ item.excerpt | strip_html }}
+        {% endif %}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No pages found in folder <code>{{ dir }}</code>.</p>
+  {% endif %}
+</div>
